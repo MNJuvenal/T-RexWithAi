@@ -1,0 +1,11 @@
+pygame>=2.5.0
+numpy>=1.21.0
+tensorflow>=2.10.0
+argparse>=1.4.0
+
+# Optional: Pour améliorer les performances
+# tensorflow-gpu>=2.10.0  # Si vous avez un GPU CUDA
+
+# Development / Debugging (optionnel)
+# matplotlib>=3.5.0      # Pour visualiser les courbes d'entraînement
+# tensorboard>=2.10.0    # Pour monitoring avancé
