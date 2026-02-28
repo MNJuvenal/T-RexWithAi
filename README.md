@@ -1,18 +1,18 @@
 
-# 🦕 T-Rex Runner AI - Intelligence Artificielle DQN
+#  T-Rex Runner AI - Intelligence Artificielle DQN
 
-## 📋 Vue d'Ensemble
+##  Vue d'Ensemble
 
 Un système d'intelligence artificielle basé sur **Deep Q-Network (DQN)** capable de jouer au célèbre jeu T-Rex Runner de Chrome avec des performances surhumaines. L'IA maîtrise l'évitement d'obstacles complexes et peut survivre indéfiniment.
 
-### 🎯 Objectifs Atteints
-- ✅ **Évitement parfait** des cactus (saut précis)
-- ✅ **Gestion intelligente des oiseaux** selon leur hauteur
-- ✅ **Adaptation dynamique** à l'accélération du jeu (6→13 unités/s)
-- ✅ **Collecte stratégique** des bonus aériens
-- ✅ **Performance stable** avec scores moyens >400 points
+###  Objectifs Atteints
+-  **Évitement parfait** des cactus (saut précis)
+-  **Gestion intelligente des oiseaux** selon leur hauteur
+-  **Adaptation dynamique** à l'accélération du jeu (6→13 unités/s)
+-  **Collecte stratégique** des bonus aériens
+-  **Performance stable** avec scores moyens >400 points
 
-### 🏆 Performance Actuelle
+###  Performance Actuelle
 | Métrique | Valeur |
 |----------|--------|
 | Score Maximum | 1346+ points |
@@ -22,7 +22,7 @@ Un système d'intelligence artificielle basé sur **Deep Q-Network (DQN)** capab
 
 ---
 
-## 🚀 Installation et Démarrage Rapide
+##  Installation et Démarrage Rapide
 
 ### 1. Prérequis
 ```bash
@@ -47,7 +47,7 @@ python3 -m src.main --play --human 1 --render 1
 
 ---
 
-## 🎓 Entraînement d'un Nouveau Modèle
+##  Entraînement d'un Nouveau Modèle
 
 ### Configuration Optimisée (Recommandée)
 ```bash
@@ -106,7 +106,7 @@ python3 -m src.main --train \
 ```
 ---
 
-## 🧪 Test et Évaluation des Modèles
+##  Test et Évaluation des Modèles
 
 ### Tests de Performance
 ```bash
@@ -142,7 +142,7 @@ python3 -m src.main --play --resume models/runs/[MEILLEUR_MODELE]/best --render 
 
 ---
 
-## 🧠 Architecture de l'IA
+##  Architecture de l'IA
 
 ### Réseau de Neurones DQN
 ```
@@ -198,7 +198,7 @@ Entrée (8 dimensions) → Dense(128, ReLU) → Dense(64, ReLU) → Sortie (3 ac
 
 
 
-## 📊 Analyse des Performances
+## Analyse des Performances
 
 ### Métriques d'Entraînement
 ```bash
@@ -231,7 +231,7 @@ Episodes 500+     : Performance maximale et constante
 
 ---
 
-## 🔧 Structure du Projet
+##  Structure du Projet
 
 ```
 trex_ai/
@@ -282,7 +282,7 @@ trex_ai/
 
 ---
 
-## ⚙️ Configuration Avancée
+##  Configuration Avancée
 
 ### Variables d'Environnement
 ```bash
@@ -358,7 +358,7 @@ def calculate_reward(self, game_state, action_taken, previous_state):
 
 ---
 
-## 🐛 Dépannage et FAQ
+##  Dépannage et FAQ
 
 ### Problèmes Courants
 
@@ -486,7 +486,7 @@ grep -E "Episode.*[0-9]+," logs/runs/*/metrics.csv | sort -t',' -k3 -nr | head -
 
 ---
 
-## 🚀 Optimisations de Performance
+##  Optimisations de Performance
 
 ### Accélération GPU
 ```bash
@@ -518,7 +518,7 @@ nvidia-smi -l 1  # GPU monitoring
 
 ---
 
-## 📋 Checklist de Déploiement
+##  Checklist de Déploiement
 
 ### Avant Production
 - [ ] Model atteint score >800 constamment
@@ -537,7 +537,7 @@ nvidia-smi -l 1  # GPU monitoring
 
 ---
 
-## 📖 Documentation Technique
+##  Documentation Technique
 
 ### Architecture DQN
 ```
@@ -568,7 +568,7 @@ Output: [Q(wait), Q(jump), Q(duck)]
 
 ---
 
-## 🎯 Roadmap et Améliorations Futures
+##  Roadmap et Améliorations Futures
 
 ### Version 2.0 Planifiée
 - [ ] Support multi-environnements (différents jeux)
@@ -591,7 +591,7 @@ Output: [Q(wait), Q(jump), Q(duck)]
 
 ---
 
-## 📞 Support et Contributions
+##  Support et Contributions
 
 ### Issues Connues
 - Performance variable sur premiers 50 épisodes (normal)
@@ -614,7 +614,7 @@ Inclure dans votre rapport :
 
 ---
 
-## 📄 Licence et Crédits
+##  Licence et Crédits
 
 Ce projet est développé à des fins éducatives et de recherche en intelligence artificielle. Inspiré du jeu T-Rex de Google Chrome.
 
@@ -628,6 +628,6 @@ Ce projet est développé à des fins éducatives et de recherche en intelligenc
 
 ---
 
-*Dernière mise à jour : Janvier 2026*
+*Dernière mise à jour : Février 2026*
 *Version du README : 2.0*
 *Performance Max Validée : 12346+ points*
